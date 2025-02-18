@@ -1,12 +1,13 @@
 {
-    "login": {
-      "emailObrigatorio": "Email é obrigatório",
-      "senhaObrigatoria": "Password é obrigatório"
-    },
-    "cadastro": {
-      "nomeObrigatorio": "Nome é obrigatório",
-      "emailObrigatorio": "Email é obrigatório",
-      "senhaObrigatoria": "Password é obrigatório"
-    }
+  "login": {
+    "emailObrigatorio": "Email é obrigatório",
+    "senhaObrigatoria": "Password é obrigatório"
+  },
+  "cadastro": {
+    "nomeObrigatorio": "Nome é obrigatório",
+    "emailObrigatorio": "Email é obrigatório",
+    "senhaObrigatoria": "Password é obrigatório"
   }
+}
+
   

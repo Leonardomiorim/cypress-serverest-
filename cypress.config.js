@@ -37,7 +37,7 @@ module.exports = defineConfig({
   env: {
     apiUrl: 'https://serverest.dev',
     validEmail: 'leonardo@teste.com.br',
-    validPassword: '@1bz592idyxHLw6'
+    validPassword: '123123'
   },
 
   // Configurações de gravação e relatórios

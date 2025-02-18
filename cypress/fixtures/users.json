@@ -1,11 +1,11 @@
 {
-    "validUser": {
-      "email": "leonardo@teste.com.br",
-      "senha": "@1bz592idyxHLw6"
-    },
-    "invalidUser": {
-      "email": "invalido@teste.com",
-      "senha": "123456"
-    }
+  "validUser": {
+    "email": "leonardo@teste.com.br",
+    "senha": "123123"
+  },
+  "invalidUser": {
+    "email": "invalido@teste.com",
+    "senha": "123456"
   }
+}
   
