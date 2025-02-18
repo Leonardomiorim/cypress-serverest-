@@ -1,0 +1,18 @@
+{
+  "name": "cypress-serverest-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.5.0",
+    "axios": "^1.7.9",
+    "cypress": "^14.0.3"
+  }
+}
