@@ -1,18 +1,35 @@
 {
-  "name": "cypress-serverest-",
+  "name": "cypress-serverest",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+  "keywords": [],
   "devDependencies": {
     "@faker-js/faker": "^9.5.0",
     "axios": "^1.7.9",
-    "cypress": "^14.0.3"
+    "cypress": "^14.0.3",
+    "xo": "^0.60.0"
+  },
+  "xo": {
+    "envs": ["browser", "node"],
+    "globals": ["cy", "Cypress", "expect", "beforeEach"],
+    "rules": {
+      
+      "unicorn/filename-case": ["error", { "case": "kebabCase" }],
+      "quotes": ["error", "single"],
+      "arrow-parens": ["error", "as-needed"],
+      "no-trailing-spaces": "error",
+      "indent": ["error", "tab"],
+      "comma-dangle": ["error", "always-multiline"],
+      "no-unused-vars": ["warn"],
+      "no-redeclare": "off" 
+    }
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   }
 }
+
