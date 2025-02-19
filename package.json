@@ -14,17 +14,16 @@
   },
   "xo": {
     "envs": ["browser", "node"],
-    "globals": ["cy", "Cypress", "expect", "beforeEach"],
-    "rules": {
-      
+   "globals": ["cy", "Cypress", "expect", "beforeEach"],
+      "rules": {
       "unicorn/filename-case": ["error", { "case": "kebabCase" }],
       "quotes": ["error", "single"],
       "arrow-parens": ["error", "as-needed"],
       "no-trailing-spaces": "error",
       "indent": ["error", "tab"],
       "comma-dangle": ["error", "always-multiline"],
-      "no-unused-vars": ["warn"],
-      "no-redeclare": "off" 
+      "no-unused-vars": "off",
+      "no-redeclare": "off"
     }
   },
   "scripts": {

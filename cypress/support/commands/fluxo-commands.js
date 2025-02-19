@@ -20,13 +20,13 @@ Cypress.Commands.add('adicionarProdutoNoCarrinho', () => {
 	cy.url().should('include', '/carrinho');
 });
 
-//Retornar para lista antes de limpar
+// Retornar para lista antes de limpar
 Cypress.Commands.add('retornarParaListaDeCompras', () => {
 	cy.get('[data-testid="lista-de-compras"]').should('be.visible').click();
 	cy.url().should('include', '/minhaListaDeProdutos');
 });
 
-//limpa lista após garantir a navegação correta
+// Limpa lista após garantir a navegação correta
 Cypress.Commands.add('limparListaDeCompras', () => {
 	cy.get('[data-testid="limparLista"]').should('be.visible').click();
 	cy.contains('Seu carrinho está vazio').should('be.visible');
